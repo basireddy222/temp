@@ -1,4 +1,5 @@
 #comment from git
+#comment from vs
 menu = {'mango':10,'strawberry':20,'grapes':30,'apple':40,'pineapple':50,'allmix':60}
 print("MENU : ",menu)
 bill = {}
