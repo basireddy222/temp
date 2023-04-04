@@ -3,8 +3,10 @@
 menu = {'mango':10,'strawberry':20,'grapes':30,'apple':40,'pineapple':50,'allmix':60}
 print("MENU : ",menu)
 bill = {}
-order = {}
-while True :
+order={}
+while true:
+
+
     juice = list(map(str,input("ENTER WHICH JUICE YOU WANT :").split()))
     quantity = list(map(int,input("ENTER QUANTITY :").split()))
     for i in range(len(juice)):
@@ -24,7 +26,7 @@ while True :
     elif q == 0 :
         break
     else:
-        print("INVALID INPUT")
+        print("invalid input")
         break
 
 sum=0
